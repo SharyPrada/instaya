@@ -1,6 +1,5 @@
 import './styles/App.css'
 
-//Packages
 import { BrowserRouter ,Route, Routes, Navigate } from 'react-router-dom';
 
 import RegistrarOrden from './pages/RegistrarOrden.jsx'
