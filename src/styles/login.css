@@ -1,0 +1,87 @@
+/* LOGIN */
+
+.pagina{
+    /* border: 3px solid aqua; */
+    margin: -50px;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    justify-content: center;
+    vertical-align: middle;
+    
+}
+
+.empy-bar{
+    background-color: #db266b;
+    padding: 25px;
+    margin-left: -125px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+}
+
+.alineacion{
+    justify-content: center;
+    vertical-align: middle;
+    justify-items: center;
+}
+
+.logo-img{
+    position: relative;
+    margin-top: -100px;
+}
+
+.imgStyle {
+    margin-top: -25px;
+    margin-bottom: -50px;
+}
+
+.barra-gigante{
+    background-color: #054789;
+    padding-top: 35px;
+    padding-bottom: 65px;
+    margin-left: -125px;
+    border-top-right-radius: 150px;
+
+}
+
+/*----------------------------------------------------------*/
+/* REGISTER */
+
+.red-line{
+    background-color: #db266b;
+    padding: 25px;
+    padding-left: 800px;
+    padding-right: 560px;
+}
+
+.recuadro{
+    padding: 40px;
+    background-color: #054789;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.labels{
+    color: #fff;
+}
+
+.final-line{
+    background-color: #054789;
+    padding: 15px;
+    padding-left: 800px;
+    padding-right: 560px;
+}
+
+.final-line2{
+    background-color: #054789;
+    padding: 12px;
+    margin-bottom: -1px;
+    padding-left: 800px;
+    padding-right: 560px;
+}
+
+.color-boton{
+    background-color: #db266b;;
+}
+

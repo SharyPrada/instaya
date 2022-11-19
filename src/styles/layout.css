@@ -1,0 +1,95 @@
+/* CSS DE NAVBAR */
+
+.contaniner-nav{
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-right: -100px;
+    /* border: 3px solid green; */
+}
+
+.barra-nav {
+    background-color: #db266b;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.element-nav{
+    color:#fff;
+}
+
+.element-nav:hover{
+    background-color: #b14870;
+    color: #fff;
+    cursor: pointer;
+}
+
+.brand-all{
+    background-color: #3a84e4;
+    /* background-color: #e43a7b; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 1000px;
+}
+
+.brand-all:hover{
+    background-color: #94bef1;
+    /* background-color: rgb(45,80,122); */
+    cursor: pointer;
+}
+
+.resize_fit_center {
+    max-width:25%;
+}
+
+.brand-insta{
+    color: #0C5298;
+    font-weight: bold;
+}
+
+.brand-ya{
+    color: #750c34;
+    font-weight: bold;
+}
+
+.logout-btn {
+    color:#fff;
+    background-color: #900c3f;
+    border-radius: 6px;
+}
+
+
+/* ------------------------------------------------- */
+/* CSS DE OUTLET */
+
+.container-oulet{
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 20px;
+    /* border: 3px solid red; */
+}
+
+
+/* ------------------------------------------------- */
+/* CSS DEL FOOTER */
+
+.container-footer {
+    background-color: #054789;
+    
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 0.5px;
+    
+    margin-bottom: -40px;
+    margin-left: -100px;
+    margin-right: -100px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    /* border: 3px solid aqua; */
+}
+
+.new-insta{
+    color: #1784F1;
+}
