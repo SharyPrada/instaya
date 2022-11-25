@@ -10,7 +10,9 @@ const ActualizarOrden = () => {
     <>
       <div className='justify-content-center container-oulet'>
         <div>Actualizacion de Ordenes</div>
-        <UpdateForm />
+        <UpdateForm 
+        description='Actualización'
+        boton='Actualizar Orden' />
       </div>
     </>
 

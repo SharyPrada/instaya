@@ -28,32 +28,32 @@ const RegistrarUsuario = () => {
                     <Row className='alineacion'>
                         <Col md="2"></Col>
                         
-                        <Col md="7" >
+                        <Col md="15" >
 
                             <Titulo>Registro de Usuario</Titulo>
 
                             <form className='recuadro' action='./list'>
                                 <div className="row mb-3">
-                                    <label for="inputEmail3" className="col-sm-2 col-form-label labels">Nombre</label>
-                                    <div className="col-sm-10">
+                                    <label for="inputNombre" className="col-sm-3 col-form-label labels">Nombre</label>
+                                    <div className="col-sm-9">
+                                    <input type="text" className="form-control" id="inputNombre" name='inputNombre'/>
+                                    </div>
+                                </div>
+                                <div className="row mb-3">
+                                    <label for="inputUsuario" className="col-sm-3 col-form-label labels">Usuario</label>
+                                    <div className="col-sm-9">
+                                    <input type="text" className="form-control" id="inputUsuario" name='inputUsuario' />
+                                    </div>
+                                </div>
+                                <div className="row mb-3">
+                                    <label for="inputEmail3" className="col-sm-3 col-form-label labels">Correo</label>
+                                    <div className="col-sm-9">
                                     <input type="email" className="form-control" id="inputEmail3" />
                                     </div>
                                 </div>
                                 <div className="row mb-3">
-                                    <label for="inputEmail3" className="col-sm-2 col-form-label labels">Usuario</label>
-                                    <div className="col-sm-10">
-                                    <input type="email" className="form-control" id="inputEmail3" />
-                                    </div>
-                                </div>
-                                <div className="row mb-3">
-                                    <label for="inputEmail3" className="col-sm-2 col-form-label labels">Correo</label>
-                                    <div className="col-sm-10">
-                                    <input type="email" className="form-control" id="inputEmail3" />
-                                    </div>
-                                </div>
-                                <div className="row mb-3">
-                                    <label for="inputPassword3" className="col-sm-2 col-form-label labels">Contraseña</label>
-                                    <div className="col-sm-10">
+                                    <label for="inputPassword3" className="col-sm-3 col-form-label labels">Contraseña</label>
+                                    <div className="col-sm-9">
                                     <input type="password" className="form-control" id="inputPassword3" />
                                     </div>
                                 </div>

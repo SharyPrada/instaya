@@ -7,7 +7,9 @@ const RegistrarOrden = () => {
     <>
       <div className='container-oulet'>
         <div>Registro de Ordenes</div>
-        <UpdateForm />
+        <UpdateForm 
+            description='Registro'
+            boton='Crear Orden' />
       </div>
     </>
   )
