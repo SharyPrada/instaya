@@ -1,0 +1,119 @@
+{
+	"users": [
+        {
+			"name": "Sarah",
+			"user": "Sarii",
+			"email": "saraprada@uninorte.edu.co",
+			"password": "holi1"
+		},
+        {
+			"name": "Shara",
+            "user": "Shary",
+            "email": "prada.m94@gmail.com",
+            "password": "holi2"
+		}
+	],
+
+    "orders": [
+        {
+            "info": {
+                "user": "Sarii",
+                "numTable": 1,
+                "date": "01/01/2021",
+                "hour": "14:05",
+                "status": "Guardado"
+            },
+            "measures": {
+                "length": 1,
+                "width": 3,
+                "height": 5,
+                "weight": 7
+            },
+            "sender": {
+                "addressS": "Cra 4 # 5 - 6",
+                "cityS": "Rivera"
+            },
+            "recipient": {
+                "nameR": "Liliana",
+                "idR": "012345",
+                "addressR": "Calle 1 #2-3",
+                "cityR": "Santamarta"
+            }
+        },
+        {
+            "info":{
+                "user": "Sarii",
+                "numTable": 2,
+                "date": "02/02/2021",
+                "hour": "10:48",
+                "status": "Entregado"
+            },
+            "measures":{
+                "length": 1,
+                "width": 2,
+                "height": 1,
+                "weight": 2
+            },
+            "sender":{
+                "address": "Cra 4 # 5 - 6",
+                "city": "Rivera"
+            },
+            "recipient":{
+                "nameR": "Albert",
+                "idR": "56789",
+                "addressR": "Calle 10 #20-30",
+                "cityR": "Barranquilla"
+            }
+        },
+        {
+            "info":{
+                "user": "Shary",
+                "numTable": 1,
+                "date": "13/01/2021",
+                "hour": "20:05",
+                "status": "Cumplido"
+            },
+            "measures":{
+                "length": 7,
+                "width": 3,
+                "height": 3,
+                "weight": 1
+            },
+            "sender":{
+                "address": "Cra 2 # 4 - 6",
+                "city": "Villavicencio"
+            },
+            "recipient":{
+                "nameR": "Jhonny",
+                "idR": "00000",
+                "addressR": "Calle 5 #2-4",
+                "cityR": "Bogotá"
+            }
+        },
+        {
+            "info":{
+                "user": "Shary",
+                "numTable": 2,
+                "date": "02/05/2021",
+                "hour": "12:48",
+                "status": "Cancelado"
+            },
+            "measures":{
+                "length": 2,
+                "width": 1,
+                "height": 4,
+                "weight": 3
+            },
+            "sender":{
+                "address": "Cra 7 # 5 - 3",
+                "city": "Ibague"
+            },
+            "recipient":{
+                "nameR": "Tom",
+                "idR": "12121",
+                "addressR": "Calle 6 #12-3",
+                "cityR": "Cartagena"
+            }
+        }
+    ]
+}

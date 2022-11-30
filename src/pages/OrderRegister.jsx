@@ -1,15 +1,15 @@
 import React from 'react'
-
-import UpdateForm from '../components/UpdateForm.jsx'
+import OrderForm from '../components/OrderForm.jsx'
 
 const RegistrarOrden = () => {
   return (
     <>
       <div className='container-oulet'>
         <div>Registro de Ordenes</div>
-        <UpdateForm 
+        <OrderForm 
             description='Registro'
-            boton='Crear Orden' />
+            boton='Crear Orden' 
+            disabled='true'/>
       </div>
     </>
   )

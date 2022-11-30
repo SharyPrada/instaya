@@ -2,11 +2,11 @@ import './styles/App.css'
 
 import { BrowserRouter ,Route, Routes, Navigate } from 'react-router-dom';
 
-import RegistrarOrden from './pages/RegistrarOrden.jsx'
-import ActualizarOrden from './pages/ActualizarOrden.jsx'
-import ListadoOrdenes from './pages/ListadoOrdenes.jsx'
-import Login from './pages/Login.jsx'
-import RegistrarUsuario from './pages/RegistrarUsuario.jsx';
+import RegistrarOrden from './pages/OrderRegister.jsx'
+import ActualizarOrden from './pages/OrderUpdate.jsx'
+import ListadoOrdenes from './pages/OrderList.jsx'
+import Login from './pages/UserLogin.jsx'
+import RegistrarUsuario from './pages/UserRegister.jsx';
 
 import Layout from './components/Layout'
 

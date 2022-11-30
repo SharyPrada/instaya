@@ -1,40 +1,43 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Table } from 'react-bootstrap'
 
-const OrderTable = () => {
-    const orders = [{ 'numServicio': 1, 'fecha': '01/01/2021', 'ciudad': 'Santamarta', 'direccion': 'Calle 1 #2-3', 'estado': 'Guardado' },
-    { 'numServicio': 2, 'fecha': '02/02/2021', 'ciudad': 'Barranquilla', 'direccion': 'Calle 10 #20-30', 'estado': 'Entregado' }
-    ];
+const OrderTable = (props) => {
+    
+    const arrayDataOrders = props.array;
+
     return (
-        <div>
-            <table id="ordenes" className="table table-primary table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col"># Servicio</th>
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Ciudad Entrega</th>
-                        <th scope="col">Direccion Entrega</th>
-                        <th scope="col">Estado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {
-                        orders.map((order, index) => {
-                            return (
-                                <tr key={index}>
-                                    <td scope="row">
-                                        <Link to={`/update/${order.numServicio}`}>{order.numServicio}</Link>
-                                    </td>
-                                    <td>{order.fecha}</td>
-                                    <td>{order.ciudad}</td>
-                                    <td>{order.direccion}</td>
-                                    <td>{order.estado}</td>
-                                </tr>)
-                        })
-                    }
-                </tbody>
-            </table>
-        </div>
+        <>
+            <div>
+                <Table id="ordenes" striped bordered hover size="sm" variant='primary'>
+                    <thead>
+                        <tr>
+                            <th scope="col"># Servicio</th>
+                            <th scope="col">Fecha</th>
+                            <th scope="col">Ciudad Entrega</th>
+                            <th scope="col">Direccion Entrega</th>
+                            <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            arrayDataOrders.map((item, index) => {
+                                return (
+                                    <tr key={index}>
+                                        <td scope="row">
+                                            <Link to={`/update/${index}`}>{item.numTable}</Link>
+                                        </td>
+                                        <td>{item.date}</td>
+                                        <td>{item.cityR}</td>
+                                        <td>{item.addressR}</td>
+                                        <td>{item.status}</td>
+                                    </tr>)
+                            })
+                        }
+                    </tbody>
+                </Table>
+            </div>
+        </>
     )
 }
 
