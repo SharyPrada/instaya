@@ -24,24 +24,7 @@ const submitHandler= (e, arrayUsers) =>{
         console.log("login_false: ", login)
         alert("nope")
     }
-    /*if(name.length <4) {
-        alert("nombre muy corto")
-        } */
-        
-        /*const requestOptions = {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({user:user, pass:pass})
-        };*/
-        //Envair hacia el back
-        /*fetch("http://localhost:9890/login", requestOptions)
-        .then((response)=> response.json())
-        .then((service)=>{
-            console.log(service.mensaje);
-            setText(service.mensaje);
-            setIsvalid(false);
-        })*/
-    
+
 }  
 
 export default submitHandler;

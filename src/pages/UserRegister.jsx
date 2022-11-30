@@ -34,28 +34,28 @@ const RegistrarUsuario = () => {
                                     <Form.Group className="mb-3" >
                                         <Row>
                                             <Col sm="3"><Form.Label className="col-form-label labels">Nombre</Form.Label></Col>
-                                            <Col sm="9"><Form.Control type="text" placeholder="" id="inputNombre" minLength="5"/></Col>
+                                            <Col sm="9"><Form.Control type="text" placeholder="" id="inputNombre" minLength="5" required/></Col>
                                         </Row>
                                     </Form.Group>
 
                                     <Form.Group className="mb-3" >
                                         <Row>
                                             <Col sm="3"><Form.Label className="col-form-label labels">Usuario</Form.Label></Col>
-                                            <Col sm="9"><Form.Control type="text" placeholder="" id="inputUsuario" minLength="5"/></Col>
+                                            <Col sm="9"><Form.Control type="text" placeholder="" id="inputUsuario" minLength="5" required/></Col>
                                         </Row>
                                     </Form.Group>
 
                                     <Form.Group className="mb-3" >
                                         <Row>
                                             <Col sm="3"><Form.Label  className="col-form-label labels">Correo</Form.Label></Col>
-                                            <Col sm="9"><Form.Control type="email" placeholder="" id="inputEmail3"/></Col>
+                                            <Col sm="9"><Form.Control type="email" placeholder="" id="inputEmail3" required/></Col>
                                         </Row>
                                     </Form.Group>                                  
 
                                     <Form.Group className="mb-3" >
                                         <Row>
                                             <Col sm="3"><Form.Label className="col-form-label labels">Contraseña</Form.Label></Col>
-                                            <Col sm="9"><Form.Control type="password" placeholder="" id="inputPassword3" minLength="5"/></Col>
+                                            <Col sm="9"><Form.Control type="password" placeholder="" id="inputPassword3" minLength="5" required/></Col>
                                         </Row>
                                     </Form.Group>
 

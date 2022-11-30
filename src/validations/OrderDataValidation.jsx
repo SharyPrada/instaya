@@ -16,24 +16,12 @@ const submitHandler= (e) =>{
     let ciuEnt = document.getElementById('inputCiudEnt').value.trim();
     
 
-    if(fecha === '' || hora === '' || largo === '' || ancho === '' || alto === '' || peso === '' || dirRec === '' || ciuRec === '' || nameDest === '' || cedDest === ''|| dirEnt === '' || ciuEnt === ''){
-        alert("Revise por campos vacios...")
-    } 
+    // if(fecha === '' || hora === '' || largo === '' || ancho === '' || alto === '' || peso === '' || dirRec === '' || ciuRec === '' || nameDest === '' || cedDest === ''|| dirEnt === '' || ciuEnt === ''){
+    //     alert("Revise por campos vacios...")
+    // }  --------------> NO NECESARIO GRACIAS AL ATRIBUTO "REQUIRED EN EL FORMULARIO"
     
         
-        /*const requestOptions = {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({user:user, pass:pass})
-        };*/
-        //Envair hacia el back
-        /*fetch("http://localhost:9890/login", requestOptions)
-        .then((response)=> response.json())
-        .then((service)=>{
-            console.log(service.mensaje);
-            setText(service.mensaje);
-            setIsvalid(false);
-        })*/
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!    VALIDAR "ESTADO" DEL PAQUETE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!    */
     
 }  
 
