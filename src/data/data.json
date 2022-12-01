@@ -1,19 +1,19 @@
 {
-	"users": [
+     "users": [
         {
-			"name": "Sarah",
-			"user": "Sarii",
-			"email": "saraprada@uninorte.edu.co",
-			"password": "holi1"
-		},
+	    "name": "Sarah",
+	    "user": "Sarii",
+	    "email": "s@prueba1.com",
+	    "password": "holi1"
+	},
         {
-			"name": "Shara",
+            "name": "Shara",
             "user": "Shary",
-            "email": "prada.m94@gmail.com",
+            "email": "s@prueba2.com",
             "password": "holi2"
-		}
-	],
-
+	}
+    ],
+    
     "orders": [
         {
             "info": {
